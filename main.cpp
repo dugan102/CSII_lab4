@@ -92,6 +92,7 @@ public:
 
 int main() {
     cout << "I am editing this and going to pull it to my main branch" << endl;
+    cout << "I am adding this as well" << endl;
     Document myDoc("G.txt");
     myDoc.prettyPrint();
     return 0;
